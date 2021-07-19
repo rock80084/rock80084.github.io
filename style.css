@@ -3,9 +3,11 @@ family=Roboto:wght@300;400&display=swap');
 
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0
+    margin: 0; 
+    padding: 0;
 }
+
+
 
 body{
     background: #333;
@@ -16,6 +18,8 @@ body{
 .container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    /*grid fr單位*/
+    /*margin、padding網頁邊寬距離,字距離*/
     grid-gap: 10px;
 }
 
@@ -30,6 +34,7 @@ body{
     justify-content: center;
     text-align: center;
     transition: all 0.5s ease-in;
+    /*> 是指進container 直接碰到div*/
 }
 
 .container > div:hover {
@@ -73,12 +78,12 @@ p {
 }
 
 .bg1{
-    background: url('./img/kind.jpg');
+    background: url('./img/b1.jpg');
     color: #333;
 }
 
 .bg2{
-    background: url('./img/young-health.jpg');
+    background: url('./img/b2.jpg');
     color: #321
 }
 .shadowbox {
