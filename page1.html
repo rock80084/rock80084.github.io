@@ -3,20 +3,35 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0"><!--devive網頁與裝置相同  縮放大小縮放比例100%--> <!--user-scalable=no 不可用手指將畫面放大-->
+    <link rel="stylesheet" href="style.css">
     <title>page1</title>
   </head>
 
   <style>
       .day-forecast{
-          background-color: aliceblue;
+        background-color: aliceblue;
       }
+      .ooo{
+        background-color: aquamarine;
+      }
+      .spot{
+        list-style:none
+      }
+      .connect{
+        display: flex;
+        justify-content: center;
+        }
+    .aaa{
+
+    }
+        
 
   </style>
 
   <body id="container">
     <header>
       <nav class="connect">
-        <ul>
+        <ul class="spot">
           <li><a href="#">home</a></li>
           <li><a href="#">about</a></li>
           <li><a href="#">connect</a></li>
@@ -24,25 +39,43 @@
       </nav><!--導覽-->
 
     </header>
+        <div class="ooo">
+            <article class="forecast" style=""><!--不同主題、作用-->
 
-    <article class="forecast">
-        <h1>weather</h1>
-        <article class="day-forecast">
-            <h2>03 march 2021</h2>
-            <p>rain</p>
-        </article>
-  
-        <article class="day-forecast">
-            <h2>04 march 2021</h2>
-            <p>heavy rain</p>
-        </article>
-  
-        <article class="day-forecast">
-            <h2>05 march 2021</h2>
-            <p>storm</p>
-        </article>
-  
-      </article>
+                <h1>蒙娜麗莎的微笑</h1>
+                <section class="day-forecast"><!--表示文檔中的節-->
+                    <h3>section1.介紹</h3>
+                </section>
+          
+                <section class="day-forecast">
+                    <h3>section2.主題</h3>
+                </section>
+          
+                <section class="day-forecast">
+                    <h3>section3.內容</h3>
+                </section>
+          
+              </article>
+        
+              <aside>
+                <p>氣溫</p>
+        
+              </aside>
+        </div>
+
+        <div>
+            <footer class="aaa">
+                <p><h4>最下方示範案例</h4></p>
+
+            </footer>
+
+
+
+
+        </div>
+
+
+
 
   </body>
 
